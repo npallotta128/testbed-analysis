@@ -1,0 +1,29 @@
+================================================================================
+MULTI-TIMEPOINT CLUSTER STRATEGY ANALYSIS
+================================================================================
+Loading data from CSV...
+Data loaded: 2557 timepoints, 18131 securities
+
+================================================================================
+ANALYZING: EARLY PERIOD (2014-2021)
+================================================================================
+
+Clustering period: 2014-10-27 to 2019-10-14 (1250 timepoints)
+Return period: 2019-10-15 to 2021-10-07 (500 timepoints)
+
+Performing 10-block clustering (block size: 125)...
+Traceback (most recent call last):
+  File "/home/npallotta128/projects/testbed-analysis/multi_timepoint_analysis.py", line 369, in <module>
+    main()
+  File "/home/npallotta128/projects/testbed-analysis/multi_timepoint_analysis.py", line 287, in main
+    result = analyze_time_period(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/projects/testbed-analysis/multi_timepoint_analysis.py", line 92, in analyze_time_period
+    clusters = perform_hierarchical_clustering(normalized, distance_threshold=50)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/projects/testbed-analysis/multi_timepoint_analysis.py", line 52, in perform_hierarchical_clustering
+    linkage_matrix = linkage(condensed_dist, method='ward')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/scipy/cluster/hierarchy.py", line 1046, in linkage
+    raise ValueError("The condensed distance matrix must contain only "
+ValueError: The condensed distance matrix must contain only finite values.

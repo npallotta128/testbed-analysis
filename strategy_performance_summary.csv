@@ -1,0 +1,6 @@
+Strategy,Description,Mean_Return,Median_Return,Win_Rate,Risk_Level,Key_Metrics
+Capital_Allocation_5pct,5% position sizing with random signal selection,132.88%,97.74%,100%,Minimal,"94.5% capital utilization, 22.6 avg positions"
+All_Trades,Use every available signal (theoretical maximum),140.09%,140.09%,100%,None,Deterministic result using all 14285 signals
+Timepoint_Windows,Trade during random timepoint windows,12.74%,10.79%,87.8%,Low,"16.8% chance >20% gains, 1.6% chance >10% loss"
+Random_Sample,Random sampling of available trades,6.32%,3.76%,64.2%,Moderate,"22% volatility, avg 50 trades per simulation"
+Sequential_Chunks,Sequential periods of systematic trading,3.05%,2.00%,65.0%,Low,"Conservative approach, 4% chance >10% loss"

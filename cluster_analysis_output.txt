@@ -1,0 +1,162 @@
+/home/npallotta128/projects/testbed-analysis/cluster_characteristics_analysis.py:89: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  quartile_analysis = combined_df.groupby('Clustering_Quartile').agg({
+/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/pandas/core/nanops.py:1016: RuntimeWarning: invalid value encountered in subtract
+  sqr = _ensure_numeric((avg - values) ** 2)
+/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/pandas/core/nanops.py:1016: RuntimeWarning: invalid value encountered in subtract
+  sqr = _ensure_numeric((avg - values) ** 2)
+================================================================================
+ANALYZING PERFORMANCE DURING CLUSTERING PERIOD
+================================================================================
+
+Loading data...
+Creating price matrix for clustering period (timepoints 0-1250)...
+
+Calculating returns during clustering period...
+Calculated returns for 8506 securities during clustering period
+
+Merging with post-clustering returns...
+Combined dataset: 8506 securities
+
+================================================================================
+CORRELATION: CLUSTERING PERIOD vs POST-CLUSTERING PERFORMANCE
+================================================================================
+
+Correlation coefficient: -0.000769
+
+================================================================================
+PERFORMANCE ANALYSIS BY QUARTILES
+================================================================================
+
+Performance during clustering period vs after:
+                    Clustering_Period_Return  ... Post_Clustering_Return
+                                       count  ...                    std
+Clustering_Quartile                           ...                       
+Q1_Worst                                2127  ...           62534.782145
+Q2_Below_Avg                            2126  ...            2486.728841
+Q3_Above_Avg                            2126  ...           70648.843967
+Q4_Best                                 2127  ...            2359.700456
+
+[4 rows x 6 columns]
+
+================================================================================
+TOP PERFORMERS DURING CLUSTERING PERIOD
+================================================================================
+
+Top 100 performers DURING clustering:
+  Average post-clustering return: 316.97%
+  Median post-clustering return: -37.07%
+
+Bottom 100 performers DURING clustering:
+  Average post-clustering return: 17861.20%
+  Median post-clustering return: 19.33%
+
+Saved: clustering_vs_post_performance.csv
+
+================================================================================
+CLUSTER CHARACTERISTICS ANALYSIS
+================================================================================
+
+Analyzing Block 0...
+
+Analyzing Block 1...
+
+Analyzing Block 2...
+
+Analyzing Block 3...
+
+Analyzing Block 4...
+
+Analyzing Block 5...
+
+Analyzing Block 6...
+
+Analyzing Block 7...
+
+Analyzing Block 8...
+
+Analyzing Block 9...
+
+================================================================================
+CLUSTER CHARACTERISTICS SUMMARY
+================================================================================
+
+Total clusters analyzed: 670
+
+Sample characteristics:
+   Block_ID  ...  Num_Securities_With_Future_Data
+0         0  ...                              309
+1         0  ...                              193
+2         0  ...                              234
+3         0  ...                              216
+4         0  ...                              272
+5         0  ...                              110
+6         0  ...                               86
+7         0  ...                              380
+8         0  ...                              154
+9         0  ...                              232
+
+[10 rows x 12 columns]
+
+Saved: cluster_characteristics.csv
+
+================================================================================
+SIGNAL IDENTIFICATION: CLUSTER CHARACTERISTICS vs FUTURE PERFORMANCE
+================================================================================
+
+Correlation of cluster characteristics with future returns:
+  Cluster Size             : 0.162417
+  Internal Correlation     : -0.152121
+  Volatility               : 0.018934
+  Price Level              : 0.000804
+  Block Return             : 0.000276
+
+================================================================================
+TOP vs BOTTOM CLUSTERS BY CHARACTERISTIC
+================================================================================
+
+Avg_Block_Return:
+  Top 100 clusters - Avg future return: 2139.61%
+  Bottom 100 clusters - Avg future return: 3089.42%
+  Difference: -949.81%
+
+Avg_Volatility:
+  Top 100 clusters - Avg future return: 2667.28%
+  Bottom 100 clusters - Avg future return: 1734.03%
+  Difference: 933.25%
+
+Avg_Correlation:
+  Top 100 clusters - Avg future return: 1075.95%
+  Bottom 100 clusters - Avg future return: 3324.87%
+  Difference: -2248.93%
+
+Cluster_Size:
+  Top 100 clusters - Avg future return: 1598.74%
+  Bottom 100 clusters - Avg future return: 4897.83%
+  Difference: -3299.09%
+
+Median_Price_Level:
+  Top 100 clusters - Avg future return: 257.76%
+  Bottom 100 clusters - Avg future return: 3992.42%
+  Difference: -3734.66%
+
+================================================================================
+IDENTIFYING HIGH-POTENTIAL CLUSTERS
+================================================================================
+
+Strategy Performance:
+  High Block Return        :    1701.11% avg return (168 clusters)
+  Low Price                :    3158.87% avg return (335 clusters)
+  Medium Size              :    1799.98% avg return (656 clusters)
+  High Correlation         :    1088.91% avg return (268 clusters)
+  High Return + Low Price  :    2194.63% avg return ( 83 clusters)
+  High Return + Med Size   :    1633.13% avg return (166 clusters)
+  All Combined             :    2046.48% avg return ( 82 clusters)
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+
+Files saved:
+  - clustering_vs_post_performance.csv
+  - cluster_characteristics.csv
+  - cluster_characteristics_with_signals.csv

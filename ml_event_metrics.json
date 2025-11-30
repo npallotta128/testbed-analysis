@@ -1,0 +1,41 @@
+{
+  "threshold_train_p90": 132.21476745605443,
+  "ALL": {
+    "average_precision": 0.07175218902379565,
+    "precision_top_1pct": 0.16129032258064516,
+    "precision_top_5pct": 0.12096774193548387,
+    "precision_top_10pct": 0.08548387096774193,
+    "LR": {
+      "average_precision": 0.049349303756122925,
+      "precision_top_1pct": 0.08870967741935484,
+      "precision_top_5pct": 0.07258064516129033,
+      "precision_top_10pct": 0.05887096774193548
+    }
+  },
+  "DROPOUT": {
+    "average_precision": 0.14641977019307004,
+    "precision_top_1pct": 0.26666666666666666,
+    "precision_top_5pct": 0.17880794701986755,
+    "precision_top_10pct": 0.15181518151815182,
+    "LR": {
+      "average_precision": 0.22173044056316513,
+      "precision_top_1pct": 0.26666666666666666,
+      "precision_top_5pct": 0.2781456953642384,
+      "precision_top_10pct": 0.26732673267326734
+    },
+    "n_test": 3030
+  },
+  "ACQUISITION": {
+    "average_precision": 0.057715116077573576,
+    "precision_top_1pct": 0.010752688172043012,
+    "precision_top_5pct": 0.03632478632478633,
+    "precision_top_10pct": 0.051227321237993596,
+    "LR": {
+      "average_precision": 0.04079458704618077,
+      "precision_top_1pct": 0.053763440860215055,
+      "precision_top_5pct": 0.053418803418803416,
+      "precision_top_10pct": 0.0416221985058698
+    },
+    "n_test": 9371
+  }
+}
