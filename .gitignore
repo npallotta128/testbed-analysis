@@ -1,0 +1,25 @@
+# Large data files
+data.csv
+*.pkl
+
+# Cache directory
+cache/
+
+# Large result files
+capital_allocation_positions.csv
+*_positions_*.csv
+realistic_allocation_positions_*.csv
+equal_50k_positions_*.csv
+no_staging_positions_*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
