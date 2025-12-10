@@ -1,0 +1,130 @@
+Loading model and events...
+Loaded 19263 dropout events
+Loading price/volume data (sampling for efficiency)...
+Merging price/volume data...
+Merged price/volume for 19263 events
+Train: 10889 events, Test: 8374 events
+
+Test set has 8374 events ranked by model probability
+Top event probability: 0.8162
+Median event probability: 0.3515
+
+================================================================================
+RUNNING SCALED CAPITAL ALLOCATION ANALYSIS
+================================================================================
+
+[1/9] Testing $1M capital...
+
+$1M Capital:
+  Final Equity: $351.22M
+  Total Return: 35021.63%
+  Positions: 5231
+  Avg Position: $398,910
+  Capital Constrained: 9.5%
+  Volume Constrained: 90.5%
+  Win Rate: 46.5%
+
+[2/9] Testing $5M capital...
+
+$5M Capital:
+  Final Equity: $367.08M
+  Total Return: 7241.52%
+  Positions: 5231
+  Avg Position: $414,747
+  Capital Constrained: 8.4%
+  Volume Constrained: 91.6%
+  Win Rate: 46.5%
+
+[3/9] Testing $10M capital...
+
+$10M Capital:
+  Final Equity: $384.45M
+  Total Return: 3744.54%
+  Positions: 5231
+  Avg Position: $431,976
+  Capital Constrained: 7.2%
+  Volume Constrained: 92.8%
+  Win Rate: 46.5%
+
+[4/9] Testing $25M capital...
+
+$25M Capital:
+  Final Equity: $418.18M
+  Total Return: 1572.71%
+  Positions: 5231
+  Avg Position: $464,835
+  Capital Constrained: 5.5%
+  Volume Constrained: 94.5%
+  Win Rate: 46.5%
+
+[5/9] Testing $50M capital...
+
+$50M Capital:
+  Final Equity: $466.37M
+  Total Return: 832.73%
+  Positions: 5231
+  Avg Position: $506,976
+  Capital Constrained: 4.0%
+  Volume Constrained: 96.0%
+  Win Rate: 46.5%
+
+[6/9] Testing $100M capital...
+
+$100M Capital:
+  Final Equity: $555.20M
+  Total Return: 455.20%
+  Positions: 5231
+  Avg Position: $571,554
+  Capital Constrained: 2.9%
+  Volume Constrained: 97.1%
+  Win Rate: 46.5%
+
+[7/9] Testing $250M capital...
+
+$250M Capital:
+  Final Equity: $742.75M
+  Total Return: 197.10%
+  Positions: 5231
+  Avg Position: $682,442
+  Capital Constrained: 1.4%
+  Volume Constrained: 98.6%
+  Win Rate: 46.5%
+
+[8/9] Testing $500M capital...
+
+$500M Capital:
+  Final Equity: $934.90M
+  Total Return: 86.98%
+  Positions: 5231
+  Avg Position: $779,384
+  Capital Constrained: 1.0%
+  Volume Constrained: 99.0%
+  Win Rate: 46.5%
+
+[9/9] Testing $1000M capital...
+
+$1000M Capital:
+  Final Equity: $1301.08M
+  Total Return: 30.11%
+  Positions: 5231
+  Avg Position: $911,023
+  Capital Constrained: 0.5%
+  Volume Constrained: 99.5%
+  Win Rate: 46.5%
+
+✓ Saved results to scaled_capital_allocation_results.csv
+✓ Saved position details to scaled_capital_allocation_details.csv
+
+================================================================================
+SUMMARY - RETURNS BY CAPITAL LEVEL
+================================================================================
+ total_capital  total_return_pct  n_positions  capital_constrained_pct  volume_constrained_pct
+       1000000      35021.630698         5231                 9.539285               90.460715
+       5000000       7241.520937         5231                 8.373160               91.626840
+      10000000       3744.537886         5231                 7.187918               92.812082
+      25000000       1572.709631         5231                 5.486523               94.513477
+      50000000        832.733790         5231                 4.033646               95.966354
+     100000000        455.199252         5231                 2.886637               97.113363
+     250000000        197.100925         5231                 1.414643               98.585357
+     500000000         86.980180         5231                 1.032307               98.967693
+    1000000000         30.108382         5231                 0.516154               99.483846

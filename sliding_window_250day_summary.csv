@@ -1,0 +1,12 @@
+Metric,Value
+Total Events,173487
+Dropout Events,91310
+Acquisition Events,82177
+Forward Window (days),250
+Avg Return (All),258.61%
+Win Rate (All),10.7%
+Avg Return (Dropout),203.60%
+Win Rate (Dropout),10.1%
+Avg Return (Acq),315.87%
+Win Rate (Acq),11.3%
+Timestamp,2025-12-03 22:43:49

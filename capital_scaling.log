@@ -1,0 +1,49 @@
+================================================================================
+SCALED CAPITAL DEPLOYMENT ANALYSIS
+================================================================================
+
+Modeling returns across various capital levels
+Accounting for: volume constraints, price impact, position limits
+
+
+================================================================================
+Testing with $1M capital
+================================================================================
+Loading event data with volume information...
+Traceback (most recent call last):
+  File "/home/npallotta128/projects/testbed-analysis/scale_capital_deployment.py", line 301, in <module>
+    results = main()
+              ^^^^^^
+  File "/home/npallotta128/projects/testbed-analysis/scale_capital_deployment.py", line 238, in main
+    result, positions = run_scaled_backtest(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/projects/testbed-analysis/scale_capital_deployment.py", line 104, in run_scaled_backtest
+    df = load_event_data()
+         ^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/projects/testbed-analysis/scale_capital_deployment.py", line 33, in load_event_data
+    df['model_probability'] = model.predict_proba(X)[:, 1]
+                              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/sklearn/pipeline.py", line 904, in predict_proba
+    Xt = transform.transform(Xt)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 1075, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "/home/npallotta128/.venvs/rapids25.10_python3.12_cuda13/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Block
+- Future_Return
+- Quality_Jump
+- Quality_Loss
+- Security
+- ...
+Feature names seen at fit time, yet now missing:
+- Quality_Change
+

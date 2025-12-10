@@ -1,0 +1,287 @@
+Loading model and events...
+Loaded 19263 dropout events
+Loading price/volume data...
+Merged price/volume for 19263 events
+Train: 10889 events, Test: 8374 events
+
+Test set: 1000 events ranked by model probability
+
+================================================================================
+REALISTIC CAPITAL ALLOCATION - 2 YEAR HOLDING PERIOD
+================================================================================
+
+[1/9] Testing $1M capital...
+
+Running simulation with $1.0M capital...
+  Processed 1000/1000 events, Opened: 313, Active: 179, Closed: 134
+
+Closing remaining 179 positions...
+  Day 1000: 179 positions still active
+  Day 1100: 146 positions still active
+  Day 1200: 118 positions still active
+  Day 1300: 72 positions still active
+  Day 1400: 20 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 313
+  Skipped: 687
+  Closed: 313
+
+Results for $1M:
+  Final Equity: $1.26M
+  Total Return: 26.08%
+  Annualized Return: 12.39%
+  Positions Closed: 313
+  Avg Position: $12,427
+  Volume Constrained: 91.1%
+  Security Limit Constrained: 0.0%
+  Win Rate: 22.0%
+
+[2/9] Testing $5M capital...
+
+Running simulation with $5.0M capital...
+  Processed 1000/1000 events, Opened: 391, Active: 242, Closed: 149
+
+Closing remaining 242 positions...
+  Day 1000: 241 positions still active
+  Day 1100: 190 positions still active
+  Day 1200: 148 positions still active
+  Day 1300: 101 positions still active
+  Day 1400: 46 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 391
+  Skipped: 609
+  Closed: 391
+
+Results for $5M:
+  Final Equity: $3.72M
+  Total Return: -25.64%
+  Annualized Return: -13.87%
+  Positions Closed: 391
+  Avg Position: $30,008
+  Volume Constrained: 93.9%
+  Security Limit Constrained: 0.5%
+  Win Rate: 21.2%
+
+[3/9] Testing $10M capital...
+
+Running simulation with $10.0M capital...
+  Processed 1000/1000 events, Opened: 395, Active: 246, Closed: 149
+
+Closing remaining 246 positions...
+  Day 1000: 245 positions still active
+  Day 1100: 193 positions still active
+  Day 1200: 147 positions still active
+  Day 1300: 99 positions still active
+  Day 1400: 44 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 395
+  Skipped: 605
+  Closed: 395
+
+Results for $10M:
+  Final Equity: $4.30M
+  Total Return: -56.97%
+  Annualized Return: -34.62%
+  Positions Closed: 395
+  Avg Position: $44,880
+  Volume Constrained: 93.9%
+  Security Limit Constrained: 0.8%
+  Win Rate: 21.0%
+
+[4/9] Testing $25M capital...
+
+Running simulation with $25.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $25M:
+  Final Equity: $8.31M
+  Total Return: -66.77%
+  Annualized Return: -42.61%
+  Positions Closed: 405
+  Avg Position: $82,706
+  Volume Constrained: 94.3%
+  Security Limit Constrained: 1.0%
+  Win Rate: 21.0%
+
+[5/9] Testing $50M capital...
+
+Running simulation with $50.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $50M:
+  Final Equity: $19.88M
+  Total Return: -60.24%
+  Annualized Return: -37.18%
+  Positions Closed: 405
+  Avg Position: $127,981
+  Volume Constrained: 95.3%
+  Security Limit Constrained: 1.0%
+  Win Rate: 21.0%
+
+[6/9] Testing $100M capital...
+
+Running simulation with $100.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $100M:
+  Final Equity: $46.96M
+  Total Return: -53.04%
+  Annualized Return: -31.68%
+  Positions Closed: 405
+  Avg Position: $205,583
+  Volume Constrained: 95.8%
+  Security Limit Constrained: 0.7%
+  Win Rate: 21.0%
+
+[7/9] Testing $250M capital...
+
+Running simulation with $250.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $250M:
+  Final Equity: $142.36M
+  Total Return: -43.06%
+  Annualized Return: -24.71%
+  Positions Closed: 405
+  Avg Position: $382,609
+  Volume Constrained: 97.0%
+  Security Limit Constrained: 0.7%
+  Win Rate: 21.0%
+
+[8/9] Testing $500M capital...
+
+Running simulation with $500.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $500M:
+  Final Equity: $322.46M
+  Total Return: -35.51%
+  Annualized Return: -19.83%
+  Positions Closed: 405
+  Avg Position: $621,769
+  Volume Constrained: 97.3%
+  Security Limit Constrained: 0.7%
+  Win Rate: 21.0%
+
+[9/9] Testing $1000M capital...
+
+Running simulation with $1000.0M capital...
+  Processed 1000/1000 events, Opened: 405, Active: 256, Closed: 149
+
+Closing remaining 256 positions...
+  Day 1000: 255 positions still active
+  Day 1100: 203 positions still active
+  Day 1200: 155 positions still active
+  Day 1300: 107 positions still active
+  Day 1400: 52 positions still active
+  Day 1500: 0 positions still active
+
+Simulation complete:
+  Attempted: 1000
+  Opened: 405
+  Skipped: 595
+  Closed: 405
+
+Results for $1000M:
+  Final Equity: $695.62M
+  Total Return: -30.44%
+  Annualized Return: -16.72%
+  Positions Closed: 405
+  Avg Position: $1,066,773
+  Volume Constrained: 97.5%
+  Security Limit Constrained: 0.7%
+  Win Rate: 21.0%
+
+✓ Saved results to realistic_capital_allocation_results.csv
+
+================================================================================
+SUMMARY - ANNUALIZED RETURNS BY CAPITAL LEVEL
+================================================================================
+ initial_capital  annualized_return_pct  total_return_pct  n_positions  volume_constrained_pct  security_constrained_pct
+         1000000              12.387494         26.075567          313               91.054313                  0.000000
+         5000000             -13.872402        -25.644319          391               93.861893                  0.511509
+        10000000             -34.620062        -56.965332          395               93.924051                  0.759494
+        25000000             -42.610337        -66.772674          405               94.320988                  0.987654
+        50000000             -37.177025        -60.240449          405               95.308642                  0.987654
+       100000000             -31.682299        -53.043800          405               95.802469                  0.740741
+       250000000             -24.709300        -43.057155          405               97.037037                  0.740741
+       500000000             -19.834177        -35.508498          405               97.283951                  0.740741
+      1000000000             -16.717059        -30.437830          405               97.530864                  0.740741

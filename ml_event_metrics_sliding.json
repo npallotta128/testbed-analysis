@@ -1,0 +1,46 @@
+[
+  {
+    "event_type": "DROP",
+    "model": "HGB",
+    "train_size": 12894,
+    "test_size": 6369,
+    "avg_precision": 0.2310627521479027,
+    "auc_roc": 0.7341401827763355,
+    "precision@1pct": 0.3968253968253968,
+    "precision@5pct": 0.29559748427672955,
+    "precision@10pct": 0.2720125786163522
+  },
+  {
+    "event_type": "DROP",
+    "model": "LR",
+    "train_size": 12894,
+    "test_size": 6369,
+    "avg_precision": 0.26155346917635564,
+    "auc_roc": 0.682189392415747,
+    "precision@1pct": 0.5238095238095238,
+    "precision@5pct": 0.389937106918239,
+    "precision@10pct": 0.3191823899371069
+  },
+  {
+    "event_type": "ACQ",
+    "model": "HGB",
+    "train_size": 12770,
+    "test_size": 5935,
+    "avg_precision": 0.14768102705069747,
+    "auc_roc": 0.6173835854813765,
+    "precision@1pct": 0.423728813559322,
+    "precision@5pct": 0.19256756756756757,
+    "precision@10pct": 0.18549747048903878
+  },
+  {
+    "event_type": "ACQ",
+    "model": "LR",
+    "train_size": 12770,
+    "test_size": 5935,
+    "avg_precision": 0.1601310201763525,
+    "auc_roc": 0.6363454703182485,
+    "precision@1pct": 0.3220338983050847,
+    "precision@5pct": 0.2195945945945946,
+    "precision@10pct": 0.2175379426644182
+  }
+]

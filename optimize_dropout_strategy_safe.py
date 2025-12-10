@@ -398,7 +398,9 @@ def test_dropout_parameters(data_file,
                             quality_metric='avg_return',
                             quality_threshold_percentile=75,
                             min_quality_change=5,
-                            market_caps_df=None):
+                            market_caps_df=None,
+                            stride=None,
+                            forward_window=500):
     """Test a specific parameter combination for dropout detection - OPTIMIZED"""
     
     # Preload data (cached, only loads once)
@@ -406,10 +408,23 @@ def test_dropout_parameters(data_file,
     
     start_timepoint = 0
     all_results = []
-    
+
+    # Determine stride (overlap) — default to non-overlapping
+    if stride is None or stride <= 0:
+        stride = block_size
+
+    # Compute safe end to respect forward_window
+    _, closing_table = load_data_once(data_file)
+    total_timepoints = len(closing_table)
+    usable_timepoints = total_timepoints - forward_window
+
+    # Build list of block starts; if num_blocks provided, cap length
+    block_starts = list(range(start_timepoint, start_timepoint + usable_timepoints - block_size + 1, stride))
+    if num_blocks is not None:
+        block_starts = block_starts[:num_blocks]
+
     # Process each block
-    for block_id in range(num_blocks):
-        block_start = start_timepoint + (block_id * block_size)
+    for block_id, block_start in enumerate(block_starts):
         
         try:
             # Load and prepare data
@@ -452,18 +467,19 @@ def test_dropout_parameters(data_file,
     )
     
     # Calculate future returns (FAST version with cached data)
-    loss_df = calculate_post_event_returns_fast(loss_df, block_size, forward_periods=500)
-    acquisition_df = calculate_post_event_returns_fast(acquisition_df, block_size, forward_periods=500)
+    loss_df = calculate_post_event_returns_fast(loss_df, block_size, forward_periods=forward_window)
+    acquisition_df = calculate_post_event_returns_fast(acquisition_df, block_size, forward_periods=forward_window)
     
     # Calculate performance metrics
     result = {
         'Block_Size': block_size,
-        'Num_Blocks': num_blocks,
+        'Num_Blocks': len(block_starts),
         'Distance_Threshold': distance_threshold,
         'Quality_Metric': quality_metric,
         'Quality_Threshold_Percentile': quality_threshold_percentile,
         'Quality_Threshold_Value': quality_threshold,
         'Min_Quality_Change': min_quality_change,
+        'Stride': stride,
         
         # DROPOUT events (leaving high-quality clusters) - PRIMARY SIGNAL
         'Num_Dropout_Events': len(loss_df),
@@ -497,7 +513,8 @@ def optimize_dropout_detection(data_file,
                                distance_thresholds=[40, 50, 60],
                                quality_metrics=['avg_return', 'median_return'],
                                quality_threshold_percentiles=[70, 75, 80],
-                               forward_window=500):
+                               forward_window=500,
+                               strides=None):
     """
     Optimize parameters for dropout detection strategy - MEMORY-SAFE VERSION
     
@@ -517,13 +534,18 @@ def optimize_dropout_detection(data_file,
     print(f"Forward return window: {forward_window}")
     print(f"Usable timepoints for blocks: {usable_timepoints}")
     
-    # Generate all parameter combinations
+    # Default strides to non-overlapping
+    if strides is None:
+        strides = block_sizes  # stride = block_size per config
+
+    # Generate all parameter combinations (include stride)
     all_combinations = list(product(
         block_sizes,
         num_blocks_list,
         distance_thresholds,
         quality_metrics,
-        quality_threshold_percentiles
+        quality_threshold_percentiles,
+        strides
     ))
     
     # Filter out unsafe combinations
@@ -531,13 +553,16 @@ def optimize_dropout_detection(data_file,
     filtered_out = []
     
     for combo in all_combinations:
-        block_size, num_blocks = combo[0], combo[1]
-        total_used = block_size * num_blocks
-        
+        block_size, num_blocks, _, _, _, stride = combo
+        # Estimate coverage when using stride; use min of requested blocks and possible blocks
+        possible_blocks = max(1, (usable_timepoints - block_size) // max(1, stride) + 1)
+        effective_blocks = min(num_blocks, possible_blocks) if num_blocks is not None else possible_blocks
+        total_used = block_size + (effective_blocks - 1) * stride
+
         if total_used <= usable_timepoints:
             param_combinations.append(combo)
         else:
-            filtered_out.append((block_size, num_blocks, total_used))
+            filtered_out.append((block_size, effective_blocks, total_used))
     
     if filtered_out:
         print(f"\nFiltered out {len(filtered_out)} unsafe configurations:")
@@ -553,10 +578,10 @@ def optimize_dropout_detection(data_file,
     start_time = time.time()
     
     # Sequential processing (memory-safe)
-    for idx, (block_size, num_blocks, distance_threshold, quality_metric, quality_percentile) in enumerate(param_combinations, 1):
+    for idx, (block_size, num_blocks, distance_threshold, quality_metric, quality_percentile, stride) in enumerate(param_combinations, 1):
         iter_start = time.time()
-        
-        print(f"\n[{idx}/{total_combinations}] Testing: Block={block_size}, Blocks={num_blocks}, Dist={distance_threshold}, "
+
+        print(f"\n[{idx}/{total_combinations}] Testing: Block={block_size}, Stride={stride}, Blocks={num_blocks}, Dist={distance_threshold}, "
               f"Metric={quality_metric}, Percentile={quality_percentile}")
         
         result, loss_df, acq_df = test_dropout_parameters(
@@ -566,7 +591,9 @@ def optimize_dropout_detection(data_file,
             distance_threshold=distance_threshold,
             quality_metric=quality_metric,
             quality_threshold_percentile=quality_percentile,
-            market_caps_df=load_market_caps()  # lazy load once
+            market_caps_df=load_market_caps(),  # lazy load once
+            stride=stride,
+            forward_window=forward_window
         )
         
         if result:

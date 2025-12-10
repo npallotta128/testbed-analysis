@@ -1,0 +1,621 @@
+2025-12-03 20:15:16,982 - INFO - [CUSTOM MODE] Using 500,000 rows
+2025-12-03 20:15:16,983 - INFO - Output directory: marketcap_pipeline_results
+2025-12-03 20:15:16,983 - INFO - 
+================================================================================
+2025-12-03 20:15:16,983 - INFO - STARTING FULL MARKETCAP PIPELINE
+2025-12-03 20:15:16,983 - INFO - ================================================================================
+
+2025-12-03 20:15:16,983 - INFO - ================================================================================
+2025-12-03 20:15:16,983 - INFO - PHASE 1: MARKET CAP INTEGRATION
+2025-12-03 20:15:16,983 - INFO - ================================================================================
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:139: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  merged.loc[mask, 'OutstandingShares'].fillna(method='ffill').fillna(method='bfill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:156: FutureWarning: SeriesGroupBy.fillna is deprecated and will be removed in a future version. Use obj.ffill() or obj.bfill() for forward or backward filling instead. If you want to fill with a single value, use Series.fillna instead
+  self.market_values_df.groupby('Symbol')['OutstandingShares'].fillna(method='ffill')
+/home/npallotta128/projects/testbed-analysis/integrate_marketcap_protocol.py:156: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  self.market_values_df.groupby('Symbol')['OutstandingShares'].fillna(method='ffill')
+2025-12-03 20:15:34,819 - INFO - Integration complete. Data shape: (418293, 9)
+2025-12-03 20:15:34,823 - INFO - ================================================================================
+2025-12-03 20:15:34,823 - INFO - PHASE 2: SLIDING WINDOW CLUSTERING + DROPOUT DETECTION
+2025-12-03 20:15:34,823 - INFO - ================================================================================
+/home/npallotta128/projects/testbed-analysis/optimize_dropout_strategy_safe.py:51: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  _CLOSING_TABLE_CACHE = _CLOSING_TABLE_CACHE.fillna(method='ffill').fillna(method='bfill')
+2025-12-03 20:15:41,474 - INFO - 
+Sliding Window Results:
+2025-12-03 20:15:41,474 - INFO -   Dropout events: 1183
+2025-12-03 20:15:41,474 - INFO -   Acquisition events: 1118
+2025-12-03 20:15:41,474 - INFO - ================================================================================
+2025-12-03 20:15:41,474 - INFO - PHASE 3: EVENT ANALYSIS
+2025-12-03 20:15:41,474 - INFO - ================================================================================
+2025-12-03 20:15:41,476 - INFO - 
+DROPOUT EVENTS (n=1183):
+2025-12-03 20:15:41,476 - INFO -   Mean return:        17.71%
+2025-12-03 20:15:41,476 - INFO -   Median return:       0.00%
+2025-12-03 20:15:41,476 - INFO -   Std dev:           140.16%
+2025-12-03 20:15:41,476 - INFO -   Positive %:          18.9%
+2025-12-03 20:15:41,476 - INFO -   Negative %:          17.6%
+2025-12-03 20:15:41,476 - INFO -   Extreme gains (>100%):    3.3%
+2025-12-03 20:15:41,476 - INFO -   Extreme losses (<-50%):   7.0%
+2025-12-03 20:15:41,476 - INFO - 
+ACQUISITION EVENTS (n=1118):
+2025-12-03 20:15:41,476 - INFO -   Mean return:        25.64%
+2025-12-03 20:15:41,476 - INFO -   Median return:       0.00%
+2025-12-03 20:15:41,476 - INFO -   Std dev:           234.61%
+2025-12-03 20:15:41,476 - INFO -   Positive %:          15.5%
+2025-12-03 20:15:41,476 - INFO -   Negative %:          16.8%
+2025-12-03 20:15:41,476 - INFO -   Extreme gains (>100%):    2.4%
+2025-12-03 20:15:41,476 - INFO -   Extreme losses (<-50%):   6.2%
+2025-12-03 20:15:41,476 - INFO - ================================================================================
+2025-12-03 20:15:41,476 - INFO - SUMMARY REPORT
+2025-12-03 20:15:41,476 - INFO - ================================================================================
+2025-12-03 20:15:41,494 - INFO - 
+MARKETCAP INTEGRATION + SLIDING WINDOW CLUSTERING PIPELINE
+Generated: 2025-12-03 20:15:41
+
+DATASET INFORMATION:
+  Total records: 418,293
+  Date range: 2015-08-10 00:00:00 to 2025-08-08 00:00:00
+  Unique symbols: 199
+  
+  Market Cap Stats:
+    Min:  $0
+    Max:  $3,991,004,597,622
+    Mean: $22,115,006,399
+    Median: $416,122,865
+
+EVENT DETECTION RESULTS:
+  Total events: 2301
+  Dropout events: 1183
+  Acquisition events: 1118
+  Dropout/Acquisition ratio: 1.06
+
+DROPOUT EVENT PERFORMANCE:
+  Mean return: 17.71%
+  Median return: 0.00%
+  Std dev: 140.16%
+  Win rate: 18.9%
+  
+ACQUISITION EVENT PERFORMANCE:
+  Mean return: 25.64%
+  Median return: 0.00%
+  Std dev: 234.61%
+  Win rate: 15.5%
+
+OUTPUT FILES:
+  - data_with_marketcap.csv (consolidated data)
+  - data_marketcap_prepared.csv (clustering-ready format)
+  - marketcap_sliding_events.csv (detected events)
+  - pipeline_summary_report.txt (this file)
+
+NEXT STEPS:
+  1. Review event distribution in marketcap_sliding_events.csv
+  2. Run backtests on dropout/acquisition events
+  3. Analyze market cap impact on event returns
+  4. Compare performance vs. baseline (without market cap)
+
+2025-12-03 20:15:41,494 - INFO - 
+================================================================================
+2025-12-03 20:15:41,494 - INFO - PIPELINE COMPLETE (24.5s)
+2025-12-03 20:15:41,494 - INFO - Results saved to: marketcap_pipeline_results/
+2025-12-03 20:15:41,494 - INFO - ================================================================================
+
+2025-12-03 20:15:41,495 - INFO - 
+✓ Pipeline completed successfully!
+2025-12-03 20:15:41,495 - INFO -   Output: marketcap_pipeline_results
+2025-12-03 20:15:41,495 - INFO -   Events file: marketcap_pipeline_results/marketcap_sliding_events.csv
+2025-12-03 20:15:41,495 - INFO -   Report: marketcap_pipeline_results/pipeline_summary_report.txt
+Loading MarketCAPValues.csv (outstanding shares)...
+  Loaded 863821 outstanding share records
+  Date range: 1984-12-31 00:00:00 to 2025-12-31 00:00:00
+  Unique symbols: 15242
+
+Loading MarketValues.csv (daily prices)...
+  Loaded FIRST 500000 price records (nrows=500000)
+  After cleaning: 499171 records
+  Date range: 2015-08-10 00:00:00 to 2025-08-08 00:00:00
+  Unique symbols: 244
+
+Approximating outstanding shares on daily price dates...
+  merge_asof encountered sorting issue: left keys must be sorted
+  Falling back to simpler merge strategy...
+  Approximated market cap for 418293 price records
+  Symbols with market cap: 199
+
+Creating consolidated dataset: marketcap_pipeline_results/data_with_marketcap.csv
+  Saved 418293 records to marketcap_pipeline_results/data_with_marketcap.csv
+  Date range: 2015-08-10 00:00:00 to 2025-08-08 00:00:00
+  Unique symbols: 199
+
+Converting to compatible format: marketcap_pipeline_results/data_marketcap_prepared.csv
+  Saved 418293 records to marketcap_pipeline_results/data_marketcap_prepared.csv
+Loading data into memory (one-time operation)...
+Creating pivot table...
+Data loaded: 2515 timepoints, 199 securities
+Memory usage: ~0.00 GB
+Load time: 0.44s
